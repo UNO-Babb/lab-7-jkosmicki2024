@@ -11,4 +11,6 @@ def main():
                 numberofPrimes += 1
         return prime
     
-    print(numPrimes(10001))
+    print(numPrimes(10001)) 
+if __name__ == '__main__':
+    main()
