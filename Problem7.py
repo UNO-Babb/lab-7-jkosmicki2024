@@ -5,7 +5,7 @@ def main():
     def numPrimes(n):
         numberofPrimes = 0
         prime = 1
-        while numberofPrimes == 0:
+        while numberofPrimes < n:
             prime += 1
             if isPrime(prime):
                 numberofPrimes += 1
