@@ -1,6 +1,6 @@
 #Problem 10 - Summation of primes
 from NumberTests import isPrime
-def sumofPrimes(summation):
+def sumofPrimes(summation): 
     total = 0
     for n in range(2, summation):
         if isPrime(n):
